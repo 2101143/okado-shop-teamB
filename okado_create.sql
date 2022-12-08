@@ -34,7 +34,7 @@ address_phonenumber VARCHAR(15) NOT NULL,
 address_postcode VARCHAR(7) NOT NULL,
 address_prefecture VARCHAR(4) NOT NULL,
 address_municipality VARCHAR(191) NOT NULL,
-city_block VARCHAR(191) NOT NULL,
+address_cityblock VARCHAR(191) NOT NULL,
 address_buildingname VARCHAR(191),
 address_roomnumber VARCHAR(191),
 PRIMARY KEY(address_id),
@@ -50,8 +50,8 @@ workshop_start TIME NOT NULL,
 workshop_end TIME NOT NULL,
 workshop_place VARCHAR(191) NOT NULL,
 workshop_entryfee INT NOT NULL,
-workshop_content VARCHAR(800) NOT NULL,
 workshop_seats INT NOT NULL,
+workshop_content VARCHAR(800) NOT NULL,
 PRIMARY KEY(workshop_id)
 );
 
