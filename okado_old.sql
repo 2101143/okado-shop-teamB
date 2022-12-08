@@ -45,12 +45,12 @@ FOREIGN KEY (user_id)
 CREATE TABLE workshop
 (workshop_id INTEGER NOT NULL,
 workshop_name VARCHAR(50) NOT NULL,
-workshop_date DATE NOT NULL,
-workshop_time VARCHAR(191) NOT NULL,
-workshop_place VARCHAR(191) NOT NULL,
-workshop_entryfee INTEGER NOT NULL,
-workshop_content VARCHAR(800) NOT NULL,
-workshop_seats INTEGER NOT NULL,
+event_date DATE NOT NULL,
+time VARCHAR(191) NOT NULL,
+place VARCHAR(191) NOT NULL,
+entryfee INTEGER NOT NULL,
+content VARCHAR(831) NOT NULL,
+seats INTEGER NOT NULL,
 PRIMARY KEY(workshop_id)
 );
 
