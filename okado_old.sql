@@ -44,7 +44,7 @@ FOREIGN KEY (user_id)
 
 CREATE TABLE workshop
 (workshop_id INTEGER NOT NULL,
-workshop_name VARCHAR(67) NOT NULL,
+workshop_name VARCHAR(50) NOT NULL,
 event_date DATE NOT NULL,
 time VARCHAR(191) NOT NULL,
 place VARCHAR(191) NOT NULL,
