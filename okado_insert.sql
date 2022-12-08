@@ -8,6 +8,12 @@ INSERT INTO `workshop`( `workshop_name`, `workshop_date`, `workshop_start`, `wor
                     ("workshop1", '2022-12-01', '12:00', '13:00', "cafeteria1", 1000, 3, "ワークショップ１"),
                     ("workshop1", '2022-12-01', '12:00', '13:00', "cafeteria1", 1000, 3, "ワークショップ１");
 
+INSERT INTO `item_categories`(`item_category_name`)
+            VALUES ("ネックレス"),
+                    (""),
+                    (""),
+                    ("");
+
 VALUES ("", '', '', '', "", , , ""),
         ("", '', '', '', "", , , ""),
         ("", '', '', '', "", , , ""),
