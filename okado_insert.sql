@@ -15,10 +15,10 @@ INSERT INTO `workshop`( `workshop_name`, `workshop_date`, `workshop_start`, `wor
 
 INSERT INTO `item_categories`(`item_category_name`)
                     VALUES  ("ネックレス"),
-                            (""),
-                            (""),
-                            (""),
-                            ("");
+                            ("イヤリング"),
+                            ("ピアス"),
+                            ("リング"),
+                            ("アイテム");
 
 INSERT INTO `items`(`item_category_id`, `item_name`, `item_price`, `item_description`, `item_inventory`, `item_pickupflag`)
             VALUES  (該当するカテゴリーID, "商品名", 価格（５００～）, "商品説明", 在庫数（１～１０）, 0),
