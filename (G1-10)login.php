@@ -1,58 +1,121 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>ログイン</title>
-<style>
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet" /></head><body><div class="v534_1336"><div class="v534_1337"><div class="v534_1338"><div class="v534_1339"><span class="v534_1340">新規登録</span></div><div class="v534_1341"><span class="v534_1342">ログイン</span></div><div class="name"></div></div><div class="name"></div><div class="v534_1344"><span class="v534_1345">オーナーログイン</span></div></div><div class="name"></div></div></body></html> <br/><br/> <style>* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v534_1336 {
+  width: 360px;
+  height: 800px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v534_1337 {
+  width: 360px;
+  height: 760px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  overflow: hidden;
+}
+.v534_1338 {
+  width: 300px;
+  height: 346px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 72px;
+  left: 30px;
+  overflow: hidden;
+}
+.v534_1339 {
+  width: 150px;
+  height: 68px;
+  background: rgba(255,255,255,1);
+  padding: 10px 30px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  overflow: hidden;
+}
+.v534_1340 {
+  width: 90px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v534_1341 {
+  width: 150px;
+  height: 68px;
+  background: rgba(255,255,255,1);
+  padding: 10px 30px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v534_1342 {
+  width: 90px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v534_1344 {
+  width: 148px;
+  height: 33px;
+  background: url("../images/v534_1344.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 10px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 472px;
+  left: 106px;
+  overflow: hidden;
+}
+.v534_1345 {
+  width: 128px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Noto Sans JP;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet"href="./css/style.css">
-</head>
-<body>
-<div name="maindiv" class="container-fluid">
-        <div class="row">
-          <div class="nav col-2 ">
-                
-            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
-            <input id="drawer_input" class="drawer_hidden" type="checkbox">
-        
-            <!-- ハンバーガーアイコン -->
-            <label for="drawer_input" class="drawer_open"><span></span></label>
-        
-            <!-- メニュー -->
-            <nav class="nav_content">
-              <ul class="nav_list">
-                <li class="nav_item"><a href="home.php"style="text-decoration:none;"><div class="menu">>HOME</a></div></li>
-                <li class="nav_item"><a href="ABOUT.php"style="text-decoration:none;"><div class="menu">>ABOUT</a></div></li>
-                <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu">>CONTACT</a></div></li>
-                <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu">>ログイン</a></div></li>
-              </ul>
-            </nav>
-       
-          </div>
-            <div class="text-center col-8 ">
-                <h1>okado</h1>
-            </div>
-            <div class="col-1">
-            <a href="cart.php"><i class="bi bi-cart3 text-dark" style="font-size: 1.5rem;"></i></a>
-            </div> 
-            <div class="col-1">
-              <a href="home.php"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
-            </div>
-            <form name="login_form">
-                <div class="login_form_top">
-                  <h1>ログイン</h1>
-                </div>
-                <div class="login_form_btm">
-                  <input type="id" name="user_id" placeholder="メールアドレス">
-                  <input type="password" name="password" placeholder="パスワード">
-                  <input type="button"onclick="location.href='seikou.php'"value="ログイン">
-                  <input type="button"onclick="location.href='shinki.php'"value="新規登録はこちら">
-                </div>
-              </form>
-              
-              
-</body>
-</html>

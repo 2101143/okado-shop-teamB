@@ -48,7 +48,7 @@
                 <div class="login_form_btm">
                   <input type="id" name="user_id" placeholder="メールアドレス">
                   <input type="password" name="password" placeholder="パスワード">
-                  <input type="button"onclick="location.href='seikou.php'"value="ログイン">
+                  <a href="seikou.php" class="btn btn--orange btn--radius">登録</a>
                 </div>
               </form>
               
