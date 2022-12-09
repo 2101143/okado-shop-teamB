@@ -3,10 +3,6 @@ INSERT INTO `cash`(`cash_method`)
                     ("代金引換"),
                     ("コンビニ決済");
 
-"" = 文字列
-'' = 日付,時刻
-なし= 半角数字
-
 INSERT INTO `workshop`( `workshop_name`, `workshop_date`, `workshop_start`, `workshop_end`, `workshop_place`, `workshop_entryfee`, `workshop_seats`, `workshop_content`)
             VALUES  ( "イベントタイトル", 'yyyy-mm-dd（開催日）', 'hh:mm（開始時刻）', 'hh:mm（終了時刻）', "会場(カフェや公園など)", 参加費（５００～２０００）, 席数（２～２０）, "ワークショップの内容~~"),
                     ( "ワークショップ第一弾", '2022-06-15', '10:00', '12:00', "公園", 1000, 10, "レジンでオリジナル耳飾りを作ろう"),
