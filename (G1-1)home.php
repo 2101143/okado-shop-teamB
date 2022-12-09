@@ -4,7 +4,7 @@
     <style>
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,12 +19,12 @@
         
             <!-- ハンバーガーアイコン -->
             <label for="drawer_input" class="drawer_open"><span></span></label>
-        
+            
             <!-- メニュー -->
             <nav class="nav_content">
               <ul class="nav_list">
-                <li class="nav_item"><a href="home.php"style="text-decoration:none;"><div class="menu">>HOME</a></div></li>
-                <li class="nav_item"><a href="ABOUT.php"style="text-decoration:none;"><div class="menu">>ABOUT</a></div></li>
+                <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">>HOME</a></div></li>
+                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu">>ABOUT</a></div></li>
                 <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu">>CONTACT</a></div></li>
                 <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu">>ログイン</a></div></li>
               </ul>
