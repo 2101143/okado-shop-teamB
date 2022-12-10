@@ -9,5 +9,11 @@
     <link rel="stylesheet"  type="text/css" href="./css/style_test2.css">
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </div>
 </body>

@@ -1,5 +1,5 @@
-body{
-    background-color: cadetblue;
+@media (min-width:768px){
+    body{background-color: aquamarine;}
 }
 
 header{
