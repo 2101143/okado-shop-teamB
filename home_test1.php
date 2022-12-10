@@ -77,11 +77,25 @@
     <p>
         <input type="text" size="4">
     </p>
-    <div id="div1">
+
+    <div id="div1" onclick="clickfunc2()">
+        <div>
+            <h1>ありがとう</h1>
+        </div>
     </div>
     <script type="text/javascript">
+        //innerHTML HTMLを書き換えている
         //div1内のhtmlの書き換え →　ログイン表示切替
-        document.getElementById("div1").innerHTML="<div><h1>ありがとう</h1></div>";
+        var g = true;
+        function clickfunc2(){
+            if(g == false){
+                document.getElementById("div1").innerHTML="<div><h1>ありがとう</h1></div>";
+            }else{
+                document.getElementById("div1").innerHTML="<div><h1>ごめんなさい</h1></div>";
+            }
+            g = !g;
+        }
     </script>
+
 </body>
     
