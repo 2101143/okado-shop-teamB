@@ -46,9 +46,11 @@
     <script type="text/javascript">
         var text1 = "";
         for(var i=0;i<10;i++){
-            text1 += "ありがとう<br />";
+            //PHPのechoステートメントは画面上ではなくコード上に書き出している
+            text1 += "ありがとう <?php echo "aiueo"; ?><br />";
         }
         document.write(text1);
+        //onclick関数　→　商品画像の切り替えなど
         var g = true;
         function clickfunc(){
             var obj = document.getElementById("img1");
@@ -68,11 +70,18 @@
             var obj = document.getElementById("img2");
             obj.src = "img/okado_e05.png";
         }
+        
     </script>
     <img id="img1" src="img/okado_e03.png" onclick="clickfunc()">
     <img id="img2" src="img/okado_e03.png" onmouseover="over1()" onmouseout="out1()">
     <p>
         <input type="text" size="4">
     </p>
+    <div id="div1">
+    </div>
+    <script type="text/javascript">
+        //div1内のhtmlの書き換え →　ログイン表示切替
+        document.getElementById("div1").innerHTML="<div><h1>ありがとう</h1></div>";
+    </script>
 </body>
     
