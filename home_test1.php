@@ -19,6 +19,60 @@
         </ul>
     </header>
     <p></p>
-    <h1>はじめまして</h1>
+    <h1 id="H1">はじめまして</h1>
+
+    <h1>
+        <input type="text" name="text1">
+    </h1>
+    <p>
+        <input type="text" name="text2" id="text2">
+    </p>
+
+    <p>
+        <time datetime="17:30">10分前</time>
+    </p>
+    <p>
+        <time datetime="2022-09-30">20220930</time>
+    </p>
+    <p>
+        <input type="date" name="date1">
+    </p>
+    <p>
+        <input type="time" name="date1">
+    </p>
+    <p>
+        <input type="search" name="date1">
+    </p>
+    <script type="text/javascript">
+        var text1 = "";
+        for(var i=0;i<10;i++){
+            text1 += "ありがとう<br />";
+        }
+        document.write(text1);
+        var g = true;
+        function clickfunc(){
+            var obj = document.getElementById("img1");
+            if(g==true){
+                obj.src = "img/okado_e03.png";
+            }else{
+                obj.src = "img/okado_e05.png"
+            }
+            g = !g;
+        }
+
+        function over1(){
+            var obj = document.getElementById("img2");
+            obj.src = "img/okado_e03.png";
+        }
+        function out1(){
+            var obj = document.getElementById("img2");
+            obj.src = "img/okado_e05.png";
+        }
+    </script>
+    <img id="img1" src="img/okado_e03.png" onclick="clickfunc()">
+    <img id="img2" src="img/okado_e03.png" onmouseover="over1()" onmouseout="out1()">
+    <p>
+        <input type="text" size="4">
+    </p>
 </body>
     

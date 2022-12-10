@@ -3,11 +3,19 @@ ul{
 }
 
 
-h1{
+#H1{
     border-top: solid 1px;
     border-bottom: solid 1px;
     padding: 5%;
     margin: 5%;
     background-color: aquamarine;
     color: blueviolet;
+}
+
+#text2{
+    border-radius: 3%;
+}
+
+#img1,#img2{
+    width: 200px;
 }
