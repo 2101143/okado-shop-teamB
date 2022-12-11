@@ -95,6 +95,7 @@
             }
             g = !g;
         }
+        document.write(screen.width);
     </script>
 
 </body>
