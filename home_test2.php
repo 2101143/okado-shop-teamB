@@ -11,24 +11,32 @@
     <script type="text/javascript">
         var g = true;
         var screenwidth = screen.width;
-        var x = -300, dx = screenwidth*0.03;
+        var x = , dx = screenwidth*0.04;
         function move(){
             var obj = document.getElementById("movediv");
             x += dx;
             obj.style.left = x+"px";
         }
+        function taiki(){
+
+        }
+        function movestop(){
+            TimeId = setInterval(move,16);
+            setInterval(move,16);
+            
+        }
     </script>
     
 </head>
-<body id="body" class="bg-secondary">
-    <nav class="nav bg-primary" style="position: sticky; top: 10px">
+<body id="body" class="bg-white">
+    <nav class="nav bg-light sticky-top">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <i class="bi bi-list" style="font-size: 2rem"></i>
+            <div class="row p-2">
+                <div class="col-4 pt-1">
+                    <i class="bi bi-list display-4"></i>
                 </div>
                 <div class="col-4">
-                    <h2 class="text-center">okado
+                    <h2 class="text-center mt-1">okado
                     </h2>
                 </div>
                 <div class="col-2">
@@ -40,7 +48,27 @@
             </div>
         </div>
     </nav>
-    <div id="movediv" class="bg-secondary" style="width:50%; height:50%; left: -300px;; position:absolute;"  onclick="setInterval(move,16)">
+    <div  style="left: 300px;">
+    <div class="container-fluid">
+        <div id="menudiv" class="row h-100">
+            <div class="col-9 col-md-5 col-xl-4 bg-white">
+                <div class="h1 text-center border-bottom border-dark p-2">okado</div>
+                    <ul class="h3" style="list-style-type: none;">
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">HOME</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">ログイン</a></li>
+                        <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">会員情報</a></li>
+                </ul>
+            </div>
+            <div class="col-3 col-md-7 col-xl-8 bg-secondary"></div>
+        </div>
+    </div>
+    </div>
+    <div id="movediv" class="bg-success" style="width:100%; height:50%; left: ; position:absolute;">
     </div>
     <div style="height:1500px">
     </div>
