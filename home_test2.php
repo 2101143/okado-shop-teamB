@@ -9,11 +9,24 @@
     <link rel="stylesheet"  type="text/css" href="./css/style_test2.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4">
-                <i class="bi bi-list"></i>
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-secondary">
+                <div class="col-4">
+                    <i class="bi bi-list h1"></i>
+                </div>
+                <div class="col-4">
+                    <p class="h2 text-center">okado</p>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-2">
+
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+    
+    
 </body>
