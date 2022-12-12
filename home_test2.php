@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet"  type="text/css" href="./css/style_test2.css">
+    <link rel="stylesheet" href="./css/style_test2.css">
+
 
     <script type="text/javascript">
         var g = true;
         var screenwidth = screen.width;
-        var x = , dx = screenwidth*0.04;
+        var x, dx = screenwidth*0.04;
         function move(){
             var obj = document.getElementById("movediv");
             x += dx;
@@ -25,10 +26,13 @@
             setInterval(move,16);
             
         }
+        
     </script>
-    
+
 </head>
+
 <body id="body" class="bg-white">
+
     <nav class="nav bg-light sticky-top">
         <div class="container-fluid">
             <div class="row p-2">
@@ -36,8 +40,7 @@
                     <i class="bi bi-list display-4"></i>
                 </div>
                 <div class="col-4">
-                    <h2 class="text-center mt-1">okado
-                    </h2>
+                    <h2 class="text-center mt-1">okado</h2>
                 </div>
                 <div class="col-2">
                     
@@ -48,8 +51,8 @@
             </div>
         </div>
     </nav>
-    <div  style="left: 300px;">
-    <div class="container-fluid">
+    
+    <nav class="container-fluid" style="position: absolute; left: 100%;">
         <div id="menudiv" class="row h-100">
             <div class="col-9 col-md-5 col-xl-4 bg-white">
                 <div class="h1 text-center border-bottom border-dark p-2">okado</div>
@@ -66,11 +69,5 @@
             </div>
             <div class="col-3 col-md-7 col-xl-8 bg-secondary"></div>
         </div>
-    </div>
-    </div>
-    <div id="movediv" class="bg-success" style="width:100%; height:50%; left: ; position:absolute;">
-    </div>
-    <div style="height:1500px">
-    </div>
-    
+    </nav>
 </body>

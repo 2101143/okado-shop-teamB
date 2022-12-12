@@ -12,7 +12,7 @@
     <body>
     <div name="maindiv" class="container-fluid">
         <div class="row">
-          <div class="nav col-2 ">
+          <div class="nav col-2">
                 
             <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
             <input id="drawer_input" class="drawer_hidden" type="checkbox">
@@ -23,10 +23,10 @@
             <!-- メニュー -->
             <nav class="nav_content">
               <ul class="nav_list">
-                <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">>HOME</a></div></li>
-                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu">>ABOUT</a></div></li>
-                <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu">>CONTACT</a></div></li>
-                <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu">>ログイン</a></div></li>
+                <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
+                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu"></div>ABOUT</a></li>
+                <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
+                <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
               </ul>
             </nav>
        
