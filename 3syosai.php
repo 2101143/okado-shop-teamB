@@ -78,29 +78,66 @@
     </nav>
     <!-- /ナビゲーション -->
 
-    <div class="container-fluid">
-        <div class="bg-white" style="height: 20%;">
-            <div class="col text-center">
-                <img class="border" src="img/main-image.png" style="height: 100%; width: 280px; object-fit: cover">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+                <img src="img/okado_i06.png" style="width: 100%; object-fit: cover">
             </div>
         </div>
-        <div class="bg-white mt-5" style="height: 5%;">
-            <div class="col-12 text-center bg-white">
-                <span class="h4">PICK UP!</span>
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+                <span class="h2">商品名</span>
+            </div>
+            <div class="w-100"></div>
+            <div class=" col-8 col-md-4 col-lg-3">
+                <span class="h2">￥1000</span>
+            </div>
+            <div class="col-4 col-md-3 col-lg-2"  style="margin-bottom: -10%">
+                <span class="h1">♡</span>
+            </div>
+            <div class="w-100"></div>
+
+
+            <div class="col-12 col-md-7 col-lg-5">
+                <span class="h2">残り : 3</span>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-md-7 col-lg-5">
+                <span class="h2">数量 : </span>
+
+
+                <select name="quantity">
+                    <option value="<?php echo 1?>"><?php echo 1?></option>
+                </select>
+
+
+            </div>
+            <div class="w-100" style="height: 2%;"></div>
+
+        </div>
+        <div class="row justify-content-center m-2">
+            <div class="col-12 col-md-7 col-lg-5" style="background-color: rgba(230,230,230,0.7)">
+                <span class="h5">＜説明＞</span>
+                <span class="h5" style="overflow-wrap: break-word">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
             </div>
         </div>
-        <div style="height: 35%;">
-            <div class="col-12 text-center">
-                <img class="border" src="img/main-image.png" style="height: 100%">
-            </div>
-        </div>
-        <div class="row justify-content-center my-5">
-            <div class="col-9 col-md-5 col-xl-4 bg-white">
-                <ul class="h3" style="list-style-type: none;">
-                    <li class="border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
-                    <li class="border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">イヤリング</a></li>
-                </ul>
+
+        <div class="w-100" style="height: 1%;"></div>
+        <div class="row justify-content-center sticky-top m-2" style="height: 70px; bottom:0;">
+            <div class="col-12 col-md-7 col-lg-5 bg-warning border border-dark rounded text-center p-3" style="height: 100%;" onclick="throwcart()">
+                <span class="h3">カートに入れる</span>
             </div>
         </div>
     </div>
+
+    <!-- アラート -->
+    <nav id="throwcart" class="container-fluid h-100" style="width: 100%; position: absolute; left: -100%; position: fixed; top: 5%; z-index: 10000" onclick="throwcart()">
+        <div class="row align-items-center justify-content-center h-100" style="background-color: rgba(160,170,170,0.5);">
+            <div class="col-7 bg-secondary text-center h2 pt-3 border border-dark rounded" style="height: 70px">
+                <span>カートに入れました</span>
+            </div>
+        </div>
+    </nav>
+    <!-- /アラート -->
+    
 </body>

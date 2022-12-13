@@ -13,7 +13,8 @@
 
 <body id="body" class="bg-white">
     <!-- ナビゲーション -->
-    <nav class="nav bg-light sticky-top">
+    <!-- z-index:11000 -->
+    <nav class="nav bg-light sticky-top" style="z-index: 11000">
         <div class="container-fluid">
             <div class="row p-2">
                 <div class="col-4 pt-1">
@@ -44,21 +45,21 @@
             }
             flag = !flag;
         }
+
         var flag2 = false;
-        function heartCheck(){
-            var heart = document.getElementById("favorite");
-            if(flag == false){
-                heart.innerHTML = "♥";
+        function throwcart(){
+            var calart = document.getElementById("throwcart");
+            if(flag2 == true){
+                calart.style.left = -scwidth + "px";
             }else{
-                heart.innerHTML = "♡";
+                calart.style.left = "0px";
             }
-            flag = !flag;
-            
+            flag2 = !flag2;
         }
-        
     </script>
 
-    <nav id="menunav" class="container-fluid h-100" style="width: 100%; position: absolute; left: -100%; position: fixed; top: 5%">
+    <!-- z-index:10000 -->
+    <nav id="menunav" class="container-fluid h-100" style="width: 100%; position: absolute; left: -100%; position: fixed; top: 5%; z-index: 10000">
         <div class="row h-100">
             <div class="col-9 col-md-5 col-xl-4 bg-white">
                 <ul class="h3 mt-5" style="list-style-type: none;">
@@ -86,7 +87,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -104,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -122,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -140,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -158,7 +159,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -176,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -194,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -212,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -230,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 bg-secondary border p-2">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
@@ -248,5 +249,24 @@
                     </div>
                 </div>
             </div>
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
+                <div style="width: 100%;  object-fit: cover">
+                    <div class="bg-white" style="width: 100%; height: 100%">
+                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　商品名</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="h6">　￥1000</p>
+                            </div>
+                            <div class="col-4" style="margin-bottom: -10%;">
+                                <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
+                            </div>
+                        </div>
+                        
+                        <p class="h6">　残り : 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
