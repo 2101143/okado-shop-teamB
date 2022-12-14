@@ -69,7 +69,7 @@
 
     <div class="container">
         <div class="row justify-content-center mt-4">
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark" style="border-radius: 10px">
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
                 <div class="row justify-content-center mt-3" style="height: 40px;">
                     <div class="col-6">
                         <span class="h4">商品の小計</span>
@@ -95,16 +95,46 @@
                     </div>
                 </div>
             </div>
+            <div class="w-100"></div>
             <div class=" col-11 col-md-8 col-lg-6 col-xl-4 mt-4">
                 <span class="h5">お届け先</span>
             </div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark" style="border-radius: 10px">
-                <div class="m-2">
+            <div class="w-100"></div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
+                <div class="bg-primary" style="width: 20%; height: 100%"></div>
+                <div class="m-2 bg-warning" style="width: 80%;">
                     <span class="h6">○○○○○○</span>
+                </div>
+                <div class="m-2 bg-warning" style="width: 80%;">
+                    <span class="h6">123-4567</span>
+                    <span class="h6">  ○○市○○区○○○○</span>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 mt-4">
+                <span class="h5">お支払方法</span>
+            </div>
+            <div class="w-100"></div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light mb-3" style="border-radius: 10px">
+                <div class="m-2">
+                    <span class="h6">ooooooo oooooooo</span>
                 </div>
                 <div class="m-2">
                     <span class="h6">123-4567</span>
                     <span class="h6">  ○○市○○区○○○○</span>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
+                <div class="m-2">
+                    <span class="h6">コンビニ決済</span>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
+                <div class="m-2">
+                    <input type="radio">
+                    <span class="h6">代金引換</span>
                 </div>
             </div>
         </div>
