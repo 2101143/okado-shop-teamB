@@ -101,7 +101,7 @@
             </div>
             <div class="w-100"></div>
             <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
-                <div class="bg-primary" style="width: 20%; height: 100%"></div>
+                <div class="float-left bg-primary" style="width: 20%; height:100%"></div>
                 <div class="m-2 bg-warning" style="width: 80%;">
                     <span class="h6">○○○○○○</span>
                 </div>
