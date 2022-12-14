@@ -25,10 +25,10 @@
             <!-- メニュー -->
             <nav class="nav_content">
               <ul class="nav_list">
-                <li class="nav_item"><a href="home.php"style="text-decoration:none;"><div class="menu">>HOME</a></div></li>
-                <li class="nav_item"><a href="ABOUT.php"style="text-decoration:none;"><div class="menu">>ABOUT</a></div></li>
-                <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu">>CONTACT</a></div></li>
-                <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu">>ログイン</a></div></li>
+              <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
+                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu"></div>ABOUT</a></li>
+                <li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
+                <li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
               </ul>
             </nav>
        
@@ -40,29 +40,53 @@
             <a href="cart.php"><i class="bi bi-cart3 text-dark" style="font-size: 1.5rem;"></i></a>
             </div> 
             <div class="col-1">
-              <a href="home.php"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
+              <a href="(G1-1)home.php"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
             </div>
     <haichi>
-        <h1>アイテム</h1>
+        <h1>リング</h1>
     </haichi>
     <div>
         <ul>
             <li>
                 <a href="index2.html">
-                    <img src="img/okado_it01.png">
+                    <img src="img/okado_r01.png">
                 </a>
                 <p id="a">
-                    アイテム１<br>
+                    リング１<br>
                     ￥1000<br>
                     <moji>SOLD OUT</moji>
                 </p>
             </li>
             <li>
                 <a href="index2.html">
-                    <img src="img/okado_it02.png">
+                    <img src="img/okado_r02.png">
                 </a>
                 <p id="a">
-                    アイテム２<br>
+                    リング２<br>
+                    ￥1000<br>
+                    <moji>SOLD OUT</moji>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a href="index2.html">
+                    <img src="img/okado_r03.png">
+                </a>
+                <p id="a">
+                    リング３<br>
+                    ￥1000<br>
+                    <moji>SOLD OUT</moji>
+                </p>
+            </li>
+            <li>
+                <a href="index2.html">
+                    <img src="img/okado_r04.png">
+                </a>
+                <p id="a">
+                    リング４<br>
                     ￥1000<br>
                     <moji>SOLD OUT</moji>
                 </p>
