@@ -66,32 +66,36 @@
         </div>
     </nav>
     <!-- /ナビゲーション -->
-    
-    <!-- HOME -->
-    <div class="container-fluid">
-        <div class="bg-white" style="height: 20%;">
-            <div class="col text-center">
-                <img class="border" src="img/main-image.png" style="height: 100%; width: 280px; object-fit: cover">
+
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8 col-lg-6 col-xl-4 border border-dark" style="background-color: rgba(210,210,210,0.5); border-radius: 15px">
+                <div class="row justify-content-center mt-3" style="height: 40px;">
+                    <div class="col-6">
+                        <span class="h4">商品の小計</span>
+                    </div>
+                    <div class="col-5">
+                        <span class="h4">￥2000</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center border-bottom border-dark" style="height: 40px;">
+                    <div class="col-6">
+                        <span class="h4">配送料・手数料</span>
+                    </div>
+                    <div class="col-5">
+                        <span class="h4">￥500</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3" style="height: 40px;">
+                    <div class="col-6">
+                        <span class="h4">ご請求額</span>
+                    </div>
+                    <div class="col-5">
+                        <span class="h4 text-right">￥2500</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="bg-white mt-5" style="height: 5%;">
-            <div class="col-12 text-center bg-white">
-                <span class="h4">PICK UP!</span>
-            </div>
-        </div>
-        <div style="height: 35%;">
-            <div class="col-12 text-center">
-                <img class="border" src="img/main-image.png" style="height: 100%">
-            </div>
-        </div>
-        <div class="row justify-content-center my-5">
-            <div class="col-9 col-md-5 col-xl-4 bg-white">
-                <ul class="h3" style="list-style-type: none;">
-                    <li class="border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
-                    <li class="border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">イヤリング</a></li>
-                </ul>
-            </div>
-        </div>
+        <div ></div>
     </div>
-    <!-- /HOME -->
 </body>
