@@ -69,7 +69,7 @@
 
     <div class="container">
         <div class="row justify-content-center mt-4">
-            <div class="col-md-8 col-lg-6 col-xl-4 border border-dark" style="background-color: rgba(210,210,210,0.5); border-radius: 15px">
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark" style="border-radius: 10px">
                 <div class="row justify-content-center mt-3" style="height: 40px;">
                     <div class="col-6">
                         <span class="h4">商品の小計</span>
@@ -93,6 +93,21 @@
                     <div class="col-5">
                         <span class="h4 text-right">￥2500</span>
                     </div>
+                </div>
+            </div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 mt-4">
+                <span class="h5">お届け先</span>
+            </div>
+            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark" style="border-radius: 10px">
+                <div class="m-2">
+                    <span class="h6">○○○○○○</span>
+                </div>
+                <div>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                <div class="m-2">
+                    <span class="h6">123-4567</span>
+                    <span class="h6">  ○○市○○区○○○○</span>
                 </div>
             </div>
         </div>
