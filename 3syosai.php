@@ -45,17 +45,6 @@
             }
             flag = !flag;
         }
-
-        var flag2 = false;
-        function throwcart(){
-            var calart = document.getElementById("throwcart");
-            if(flag2 == true){
-                calart.style.left = -scwidth + "px";
-            }else{
-                calart.style.left = "0px";
-            }
-            flag2 = !flag2;
-        }
     </script>
 
     <!-- z-index:10000 -->
@@ -78,6 +67,7 @@
     </nav>
     <!-- /ナビゲーション -->
 
+    <!-- 商品詳細 -->
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
@@ -131,6 +121,19 @@
     </div>
 
     <!-- アラート -->
+    <script type="text/javascript">
+        var flag2 = false;
+        function throwcart(){
+            var calart = document.getElementById("throwcart");
+            if(flag2 == true){
+                calart.style.left = -scwidth + "px";
+            }else{
+                calart.style.left = "0px";
+            }
+            flag2 = !flag2;
+        }
+    </script>
+    
     <nav id="throwcart" class="container-fluid h-100" style="width: 100%; position: absolute; left: -100%; position: fixed; top: 5%; z-index: 10000" onclick="throwcart()">
         <div class="row align-items-center justify-content-center h-100" style="background-color: rgba(160,170,170,0.5);">
             <div class="col-7 bg-secondary text-center h2 pt-3 border border-dark rounded" style="height: 70px">
@@ -140,4 +143,5 @@
     </nav>
     <!-- /アラート -->
     
+    <!-- /商品詳細 -->
 </body>

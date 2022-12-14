@@ -45,17 +45,6 @@
             }
             flag = !flag;
         }
-
-        var flag2 = false;
-        function throwcart(){
-            var calart = document.getElementById("throwcart");
-            if(flag2 == true){
-                calart.style.left = -scwidth + "px";
-            }else{
-                calart.style.left = "0px";
-            }
-            flag2 = !flag2;
-        }
     </script>
 
     <!-- z-index:10000 -->
@@ -78,6 +67,7 @@
     </nav>
     <!-- /ナビゲーション -->
     
+    <!-- 商品一覧 -->
     <div class="container-fluid">
         <div class="row align-items-center text-center" style="height: 15%;">
             <div class="col-12">
@@ -269,4 +259,5 @@
             </div>
         </div>
     </div>
+    <!-- /商品一覧 --> 
 </body>
