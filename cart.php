@@ -43,6 +43,7 @@
               <a href="home.html"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
             </div>  
             <div class="name"><h1 class="text-center">カート</h1></div>
+            
             <div class="shohin">
               <div class="img">
                 <img src="PNG/MicrosoftTeams-image (11).png" class="style">
@@ -51,8 +52,9 @@
                 <p class="s_name">商品名</p><br>
                 <p class="s_kakaku">価格：&yen;99,999 +tax</p><br>
                 <p class="s_suuryou">数量：</p>
-                <button class="cancel">×</button>
+                <button class="cancel" onclick="delete();">×</button>
               </div>
+
               <div class="s-name">
                 <p class="s_name">商品名</p><br>
                 <p class="s_kakaku">価格：&yen;99,999 +tax</p><br>
@@ -63,4 +65,7 @@
             <div style="text-align:right; padding:0;">
               <button class="kakutei">購入確定</button>
             </div>
+            <script>
+              function delete(){}
+            </script>
         </html>
