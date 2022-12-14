@@ -25,8 +25,8 @@
               <ul class="nav_list">
                 <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
                 <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu"></div>ABOUT</a></li>
-                <li class="nav_item"><a href="CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
-                <li class="nav_item"><a href="login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
+                <li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
+                <li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
               </ul>
             </nav>
        
@@ -38,7 +38,7 @@
             <a href="cart.php"><i class="bi bi-cart3 text-dark" style="font-size: 1.5rem;"></i></a>
             </div> 
             <div class="col-1">
-              <a href="home.php"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
+              <a href="(G1-1)home.php"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
             </div>
 
 
@@ -57,35 +57,35 @@
         <div class="card">
           
           <div class="card-body">
-            <h5 class=" text-center card-title"><a href ="Nsyohin.php" style= "text-decoration:none;">ネックレス</a></h5>
+            <h5 class=" text-center card-title"><a href ="(G1-2)Nsyohin.php" style= "text-decoration:none;">ネックレス</a></h5>
           </div>
         </div>
       </div>
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="text-center card-title"><a href ="Isyohin.php" style= "text-decoration:none;">イヤリング</a></h5>
+            <h5 class="text-center card-title"><a href ="(G1-2)Isyohin.php" style= "text-decoration:none;">イヤリング</a></h5>
           </div>
         </div>
       </div>
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="text-center card-title"><a href ="Psyohin.php" style= "text-decoration:none;">ピアス</a></h5>
+            <h5 class="text-center card-title"><a href ="(G1-2)Psyohin.php" style= "text-decoration:none;">ピアス</a></h5>
           </div>
         </div>
       </div>
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="text-center card-title"><a href ="Rsyohin.php" style= "text-decoration:none;">リング</a></h5>
+            <h5 class="text-center card-title"><a href ="(G1-2)Rsyohin.php" style= "text-decoration:none;">リング</a></h5>
           </div>
         </div>
       </div>
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="text-center card-title"><a href ="Itsyohin.php" style= "text-decoration:none;">アイテム</a></h5>
+            <h5 class="text-center card-title"><a href ="(G1-2)Itsyohin.php" style= "text-decoration:none;">アイテム</a></h5>
           </div>
         </div>
       </div>
