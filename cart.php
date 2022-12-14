@@ -7,8 +7,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <script type="text/javascript" >
+      function del1(){
+        document.getElementById("s_1").style.display="none";
+      }
+      function del2(){
+        document.getElementById("s_2").style.display="none";
+      }
+      function del3(){
+        document.getElementById("s_3").style.display="none";
+      }
+      function del4(){
+        document.getElementById("s_4").style.display="none";
+      }
+    </script>
   </head>
     
   <body>
@@ -44,28 +58,60 @@
             </div>  
             <div class="name"><h1 class="text-center">カート</h1></div>
             
-            <div class="shohin">
+            <div class="shohin" id="s_1" >
+              <div class="img">
+                <img src="img/okado_e04.png" class="style">
+              </div>
+              <div class="s-name" id="s_1">
+                <p class="s_name">商品名</p>
+                <p class="s_kakaku">価格：&yen;99,999 +tax</p>
+                <p class="s_suuryou">数量：</p>
+                <button class="cancel" onclick="del1();">×</button>
+              </div>
+              
+            
+            </div>
+            <div class="shohin" id="s_2">
               <div class="img">
                 <img src="img/okado_e04.png" class="style">
               </div>
               <div class="s-name">
-                <p class="s_name">商品名</p><br>
-                <p class="s_kakaku">価格：&yen;99,999 +tax</p><br>
+                <p class="s_name">商品名</p>
+                <p class="s_kakaku">価格：&yen;99,999 +tax</p>
                 <p class="s_suuryou">数量：</p>
-                <button class="cancel" onclick="delete();">×</button>
+                <button class="cancel" onclick="del2();">×</button>
               </div>
-
+              
+            
+            </div>
+            <div class="shohin" id="s_3">
+              <div class="img">
+                <img src="img/okado_e04.png" class="style">
+              </div>
               <div class="s-name">
-                <p class="s_name">商品名</p><br>
-                <p class="s_kakaku">価格：&yen;99,999 +tax</p><br>
+                <p class="s_name">商品名</p>
+                <p class="s_kakaku">価格：&yen;99,999 +tax</p>
                 <p class="s_suuryou">数量：</p>
-                <button class="cancel">×</button>
+                <button class="cancel" onclick="del3();">×</button>
               </div>
+              
+            
+            </div>
+            <div class="shohin" id="s_4">
+              <div class="img">
+                <img src="img/okado_e04.png" class="style">
+              </div>
+              <div class="s-name">
+                <p class="s_name">商品名</p>
+                <p class="s_kakaku">価格：&yen;99,999 +tax</p>
+                <p class="s_suuryou">数量：</p>
+                <button class="cancel" onclick="del4();">×</button>
+              </div>
+              
+            
             </div>
             <div style="text-align:right; padding:0;">
               <button class="kakutei">購入確定</button>
             </div>
-            <script>
-              function delete(){}
-            </script>
+            
         </html>
