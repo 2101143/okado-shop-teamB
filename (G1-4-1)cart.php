@@ -40,9 +40,9 @@
             <nav class="nav_content">
               <ul class="nav_list">
               <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
-                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu"></div>ABOUT</a></li>
-                <li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
-                <li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
+                <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu">ABOUT</div></a></li>
+                <li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu">CONTACT</div></a></li>
+                <li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu">ログイン</div></a></li>
               </ul>
             </nav>
        
