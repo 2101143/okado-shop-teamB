@@ -102,9 +102,6 @@
                 <div class="m-2">
                     <span class="h6">○○○○○○</span>
                 </div>
-                <div>
-                    <i class="bi bi-chevron-right"></i>
-                </div>
                 <div class="m-2">
                     <span class="h6">123-4567</span>
                     <span class="h6">  ○○市○○区○○○○</span>
