@@ -81,10 +81,28 @@
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_e04.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <p class="h6">　特別な海月(青)</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥5700</p>
+                            </div>
+                            <div class="col-4" style="margin-bottom: -10%;">
+                                <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
+                            </div>
+                        </div>
+                        
+                        <p class="h6">　残り : 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
+                <div style="width: 100%;  object-fit: cover">
+                    <div class="bg-white" style="width: 100%; height: 100%">
+                        <img src="img/okado_e09.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　特別な海月(紫)</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="h6">　￥5700</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -98,11 +116,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_i02.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　遊星</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥2000</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -116,11 +134,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_e03.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　蝶の憧れ</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥2000</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -134,11 +152,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_i02.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　西日の中</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥2500</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -152,11 +170,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_p03.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　ヘンテコ</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥1500</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -170,11 +188,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_i11.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　ゼリー</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥2700</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
@@ -188,65 +206,11 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
+                        <img src="img/okado_i10.png" style="width: 100%; object-fit: cover">
+                        <p class="h6">　マカロニ</p>
                         <div class="row">
                             <div class="col-8">
-                                <p class="h6">　￥1000</p>
-                            </div>
-                            <div class="col-4" style="margin-bottom: -10%;">
-                                <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
-                            </div>
-                        </div>
-                        
-                        <p class="h6">　残り : 2</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
-                <div style="width: 100%;  object-fit: cover">
-                    <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="h6">　￥1000</p>
-                            </div>
-                            <div class="col-4" style="margin-bottom: -10%;">
-                                <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
-                            </div>
-                        </div>
-                        
-                        <p class="h6">　残り : 2</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
-                <div style="width: 100%;  object-fit: cover">
-                    <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="h6">　￥1000</p>
-                            </div>
-                            <div class="col-4" style="margin-bottom: -10%;">
-                                <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
-                            </div>
-                        </div>
-                        
-                        <p class="h6">　残り : 2</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
-                <div style="width: 100%;  object-fit: cover">
-                    <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
-                        <p class="h6">　商品名</p>
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="h6">　￥1000</p>
+                                <p class="h6">　￥2000</p>
                             </div>
                             <div class="col-4" style="margin-bottom: -10%;">
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
