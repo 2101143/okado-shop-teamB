@@ -80,7 +80,7 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-                        <img src="img/okado_i12.png" style="width: 100%; object-fit: cover">
+                        <img src="img/okado_e04.png" style="width: 100%; object-fit: cover">
                         <p class="h6">　商品名</p>
                         <div class="row">
                             <div class="col-8">
