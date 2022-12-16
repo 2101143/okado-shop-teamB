@@ -80,15 +80,12 @@
             <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
-<<<<<<< HEAD
                     <a href="10syousai.php">
                         <img src="img/okado_e02.png" style="width: 100%; object-fit: cover">
                     </a>
                         <p class="h6">　商品名</p>
-=======
                         <img src="img/okado_e04.png" style="width: 100%; object-fit: cover">
                         <p class="h6">　特別な海月(青)</p>
->>>>>>> 4f16845173bb0b52b2ffcf5522580360819c896e
                         <div class="row">
                             <div class="col-8">
                                 <p class="h6">　￥5700</p>
