@@ -57,56 +57,56 @@
 				</div>
 			</div>
 			<!-- /ナビゲーション -->
-
-			<div class="row">
-				<div class="name"><h1 class="text-center">カート</h1></div>
-
-				<div class="shohin" id="s_1" >
+			<div class="row justify-content-center">
+				<div class="col-md-7 col-lg-5 col-4">
+					<div class="name"><h1 class="text-center">カート</h1></div>
+					<div class="shohin" id="s_1" >
+						<div class="img">
+							<img src="img/okado_e04.png" class="style">
+						</div>
+						<div class="s-name" id="s_1">
+							<p class="s_name">商品名</p>
+							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
+							<p class="s_suuryou">数量：</p>
+							<button class="cancel" onclick="del1();">×</button>
+						</div>        
+					</div>
+					<div class="shohin" id="s_2">
+						<div class="img">
+							<img src="img/okado_e04.png" class="style">
+						</div>
+						<div class="s-name">
+							<p class="s_name">商品名</p>
+							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
+							<p class="s_suuryou">数量：</p>
+							<button class="cancel" onclick="del2();">×</button>
+						</div>
+					</div>
+					<div class="shohin" id="s_3">
+						<div class="img">
+							<img src="img/okado_e04.png" class="style">
+						</div>
+						<div class="s-name">
+							<p class="s_name">商品名</p>
+							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
+							<p class="s_suuryou">数量：</p>
+							<button class="cancel" onclick="del3();">×</button>
+						</div>
+					</div>
+					<div class="shohin" id="s_4">
 					<div class="img">
 						<img src="img/okado_e04.png" class="style">
 					</div>
-					<div class="s-name" id="s_1">
-						<p class="s_name">商品名</p>
-						<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-						<p class="s_suuryou">数量：</p>
-						<button class="cancel" onclick="del1();">×</button>
-					</div>        
-				</div>
-				<div class="shohin" id="s_2">
-					<div class="img">
-						<img src="img/okado_e04.png" class="style">
+						<div class="s-name">
+							<p class="s_name">商品名</p>
+							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
+							<p class="s_suuryou">数量：</p>
+							<button class="cancel" onclick="del4();">×</button>
+						</div>
 					</div>
-					<div class="s-name">
-						<p class="s_name">商品名</p>
-						<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-						<p class="s_suuryou">数量：</p>
-						<button class="cancel" onclick="del2();">×</button>
+					<div style="text-align:right; padding:0;">
+						<button class="kakutei">レジへ進む</button>
 					</div>
-				</div>
-				<div class="shohin" id="s_3">
-					<div class="img">
-						<img src="img/okado_e04.png" class="style">
-					</div>
-					<div class="s-name">
-						<p class="s_name">商品名</p>
-						<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-						<p class="s_suuryou">数量：</p>
-						<button class="cancel" onclick="del3();">×</button>
-					</div>
-				</div>
-				<div class="shohin" id="s_4">
-				<div class="img">
-					<img src="img/okado_e04.png" class="style">
-				</div>
-					<div class="s-name">
-						<p class="s_name">商品名</p>
-						<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-						<p class="s_suuryou">数量：</p>
-						<button class="cancel" onclick="del4();">×</button>
-					</div>
-				</div>
-				<div style="text-align:right; padding:0;">
-					<button class="kakutei">購入確定</button>
 				</div>
 			</div>
 		</div>

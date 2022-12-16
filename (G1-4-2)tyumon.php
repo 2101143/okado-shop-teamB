@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style_test2.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body id="body" class="bg-white">
@@ -67,75 +67,81 @@
 
     <div class="container">
         <div class="row justify-content-center mt-4">
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
                 <div class="row justify-content-center mt-3" style="height: 40px;">
-                    <div class="col-6">
-                        <span class="h4">商品の小計</span>
+                    <div class="col-7">
+                        <span class="h5">商品の小計</span>
                     </div>
-                    <div class="col-5">
-                        <span class="h4">￥2000</span>
+                    <div class="col-4">
+                        <span class="h5">￥2000</span>
                     </div>
                 </div>
                 <div class="row justify-content-center border-bottom border-dark" style="height: 40px;">
-                    <div class="col-6">
-                        <span class="h4">配送料・手数料</span>
+                    <div class="col-7">
+                        <span class="h5">配送料・手数料</span>
                     </div>
-                    <div class="col-5">
-                        <span class="h4">￥500</span>
+                    <div class="col-4">
+                        <span class="h5">￥500</span>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3" style="height: 40px;">
-                    <div class="col-6">
-                        <span class="h4">ご請求額</span>
+                    <div class="col-7">
+                        <span class="h5">ご請求額</span>
                     </div>
-                    <div class="col-5">
-                        <span class="h4 text-right">￥2500</span>
+                    <div class="col-4">
+                        <span class="h5 text-right">￥2500</span>
                     </div>
                 </div>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 mt-4">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 mt-4">
                 <span class="h5">お届け先</span>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
-                <div class="float-left bg-primary" style="width: 20%; height:100%"></div>
-                <div class="m-2 bg-warning" style="width: 80%;">
-                    <span class="h6">○○○○○○</span>
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 border border-dark bg-light" style="border-radius: 10px">
+            <div class="m-2">
+                    <span class="h6">ooooooo</span>
                 </div>
-                <div class="m-2 bg-warning" style="width: 80%;">
+                <div class="m-2">
                     <span class="h6">123-4567</span>
                     <span class="h6">  ○○市○○区○○○○</span>
                 </div>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 mt-4">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 mt-4">
                 <span class="h5">お支払方法</span>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light mb-3" style="border-radius: 10px">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 border border-dark bg-light mb-3" style="border-radius: 10px">
                 <div class="m-2">
+                    <input type="radio">
                     <span class="h6">ooooooo oooooooo</span>
                 </div>
                 <div class="m-2">
-                    <span class="h6">123-4567</span>
-                    <span class="h6">  ○○市○○区○○○○</span>
+                    <span class="h6">下4桁 :  ****</span>
+                    <span class="h6">1234</span>
                 </div>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
                 <div class="m-2">
+                    <input type="radio">
                     <span class="h6">コンビニ決済</span>
                 </div>
             </div>
             <div class="w-100"></div>
-            <div class=" col-11 col-md-8 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
+            <div class=" col-11 col-md-7 col-lg-6 col-xl-4 border border-dark bg-light  mb-3" style="border-radius: 10px">
                 <div class="m-2">
                     <input type="radio">
                     <span class="h6">代金引換</span>
                 </div>
             </div>
+            <div class="w-100" style="height: 1%;"></div>
+        <div class="row justify-content-center sticky-top m-2" style="height: 70px; bottom:0;">
+            <div class="col-12 col-md-7 col-lg-5 bg-warning border border-dark rounded text-center p-2" style="height: 80%;" onclick="throwcart()">
+                <span class="h3">注文確定</span>
+            </div>
         </div>
-        <div ></div>
+        </div>
     </div>
 </body>

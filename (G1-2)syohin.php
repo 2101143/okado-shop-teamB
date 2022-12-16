@@ -71,7 +71,7 @@
     <div class="container-fluid">
         <div class="row align-items-center text-center" style="height: 15%;">
             <div class="col-12">
-                <span class="h1">ネックレス</span>
+                <span class="h1">イヤリング</span>
             </div>
         </div>
     </div>

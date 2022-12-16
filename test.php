@@ -51,4 +51,37 @@
             <div class="col-3 col-md-7 col-xl-8" style="background-color: rgba(160,170,170,0.5);" onclick="menuOpen()"></div>
         </div>
     </nav>
+
+    <div class="container bg-secondary">
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5 col-xl-4 bg-warning">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>商品の小計</td>
+                                <td>￥2000</td>
+                            </tr>
+                            <tr>
+                                <td>配送料・手数料</td>
+                                <td>￥500</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>ご請求額</td>
+                                <td>￥2500</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <style>
+            table, tfoot{
+                border: 1px solid;
+                padding: 5px;
+            }
+        </style>
+
+
     <!-- /ナビゲーション -->
