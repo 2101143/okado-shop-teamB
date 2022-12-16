@@ -25,11 +25,16 @@
             <!-- メニュー -->
             <nav class="nav_content">
               <ul class="nav_list">
-                <li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
-                  <li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu"></div>ABOUT</a></li>
-                  <li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu"></div>CONTACT</a></li>
-                  <li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu"></div>ログイン</a></li>
-              </ul>
+              <ul class="h3 mt-5" style="list-style-type: none;">
+                    <li class="border-bottom border-dark p-1"><a href="(G1-1)home.php" class="text-dark" style="text-decoration: none;">HOME</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-5)ABOUT.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">会員情報</a></li>
+                </ul>
             </nav>
        
           </div>
@@ -77,7 +82,7 @@
       </div>
       </li>
   </ul> 
-<div><a href="#" class="btn btn-dark ">ログイン</a></div>
+<div><a href="(G1-10-1-2)seikou.php" class="btn btn-dark ">ログイン</a></div>
 <!--/area--></div>
 <div id="shinki" class="area">
   <ul> 
@@ -96,7 +101,7 @@
       </div>
       </li>
   </ul> 
-<div class="text-center"><a href="#" class="btn btn-dark text-center">新規登録</a></div>
+<div class="text-center"><a href="(G1-10-1-2)seikou.php" class="btn btn-dark text-center">新規登録</a></div>
 </div>
 <!--/area--></div>
 

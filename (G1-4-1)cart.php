@@ -38,12 +38,16 @@
 					
 					<!-- メニュー -->
 					<nav class="nav_content">
-						<ul class="nav_list">
-							<li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
-							<li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu">ABOUT</div></a></li>
-							<li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu">CONTACT</div></a></li>
-							<li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu">ログイン</div></a></li>
-						</ul>
+					<ul class="h3 mt-5" style="list-style-type: none;">
+                    <li class="border-bottom border-dark p-1"><a href="(G1-1)home.php" class="text-dark" style="text-decoration: none;">HOME</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-5)ABOUT.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">会員情報</a></li>
+                </ul>
 					</nav>
 				</div>
 				<div class="text-center col-8 ">
@@ -62,7 +66,7 @@
 					<div class="name"><h1 class="text-center">カート</h1></div>
 					<div class="shohin" id="s_1" >
 						<div class="img">
-							<img src="img/okado_e04.png" class="style">
+							<img src="img/okado_e02.png" class="style">
 						</div>
 						<div class="s-name" id="s_1">
 							<p class="s_name">商品名</p>
@@ -71,39 +75,7 @@
 							<button class="cancel" onclick="del1();">×</button>
 						</div>        
 					</div>
-					<div class="shohin" id="s_2">
-						<div class="img">
-							<img src="img/okado_e04.png" class="style">
-						</div>
-						<div class="s-name">
-							<p class="s_name">商品名</p>
-							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-							<p class="s_suuryou">数量：</p>
-							<button class="cancel" onclick="del2();">×</button>
-						</div>
-					</div>
-					<div class="shohin" id="s_3">
-						<div class="img">
-							<img src="img/okado_e04.png" class="style">
-						</div>
-						<div class="s-name">
-							<p class="s_name">商品名</p>
-							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-							<p class="s_suuryou">数量：</p>
-							<button class="cancel" onclick="del3();">×</button>
-						</div>
-					</div>
-					<div class="shohin" id="s_4">
-					<div class="img">
-						<img src="img/okado_e04.png" class="style">
-					</div>
-						<div class="s-name">
-							<p class="s_name">商品名</p>
-							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
-							<p class="s_suuryou">数量：</p>
-							<button class="cancel" onclick="del4();">×</button>
-						</div>
-					</div>
+
 					<div style="text-align:right; padding:0;">
 						<button class="kakutei">レジへ進む</button>
 					</div>

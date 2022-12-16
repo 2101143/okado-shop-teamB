@@ -26,12 +26,16 @@
 					
 					<!-- メニュー -->
 					<nav class="nav_content">
-						<ul class="nav_list">
-							<li class="nav_item"><a href="(G1-1)home.php"style="text-decoration:none;"><div class="menu">HOME<div></a></li>
-							<li class="nav_item"><a href="(G1-5)ABOUT.php"style="text-decoration:none;"><div class="menu">ABOUT</div></a></li>
-							<li class="nav_item"><a href="(G1-6-1)CONTACT.php"style="text-decoration:none;"><div class="menu">CONTACT</div></a></li>
-							<li class="nav_item"><a href="(G1-10)login.php"style="text-decoration:none;"><div class="menu">ログイン</div></a></li>
-						</ul>
+					<ul class="h3 mt-5" style="list-style-type: none;">
+                    <li class="border-bottom border-dark p-1"><a href="(G1-1)home.php" class="text-dark" style="text-decoration: none;">HOME</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-5)ABOUT.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">会員情報</a></li>
+                </ul>
 					</nav>
 				</div>
 				<div class="text-center col-8 ">
@@ -66,7 +70,7 @@
                 <div class="row justify-content-center my-5">
                     <div class="col-9 col-md-5 col-xl-4">
                         <ul class="h3" style="list-style-type: none;">
-                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
+                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="(G1-2)syohin.php" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
                             <li class="bg-white border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">イヤリング</a></li>
                         </ul>
                     </div>
