@@ -94,7 +94,7 @@
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
                             </div>
                         </div>
-                        
+            
                         <p class="h6">　残り : 1</p>
                     </div>
                 </div>
