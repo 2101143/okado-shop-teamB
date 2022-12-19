@@ -71,7 +71,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
+<<<<<<< HEAD
                 <img src="img/okado_e09.png" style="width: 100%; object-fit: cover">
+=======
+                <img src="img/okado_e02.png" style="width: 100%; object-fit: cover">
+>>>>>>> 1c1a6c908c703de28bbd47c877f069cb7bcd2610
             </div>
         </div>
         <div class="row justify-content-center">

@@ -66,18 +66,18 @@
 					<div class="name"><h1 class="text-center">カート</h1></div>
 					<div class="shohin" id="s_1" >
 						<div class="img">
-							<img src="img/okado_e09.png" class="style">
+							<img src="img/okado_e02.png" class="style">
 						</div>
 						<div class="s-name" id="s_1">
-							<p class="s_name">特別な海月（青）</p>
-							<p class="s_kakaku">価格：&yen;5,700</p>
+							<p class="s_name">商品名</p>
+							<p class="s_kakaku">価格：&yen;99,999 +tax</p>
 							<p class="s_suuryou">数量：</p>
 							<button class="cancel" onclick="del1();">×</button>
 						</div>        
 					</div>
 
 					<div style="text-align:right; padding:0;">
-						<button class="kakutei"onclick="location.href='(G1-4-2)tyumon.php'">レジへ進む</button>
+						<button class="kakutei">レジへ進む</button>
 					</div>
 				</div>
 			</div>

@@ -84,6 +84,7 @@
                         <img src="img/okado_e09.png" style="width: 100%; object-fit: cover">
                     </a>
                         <p class="h6">　商品名</p>
+                        <img src="img/okado_e04.png" style="width: 100%; object-fit: cover">
                         <p class="h6">　特別な海月(青)</p>
                         <div class="row">
                             <div class="col-8">
@@ -93,7 +94,7 @@
                                 <p id="favorite" class="h1 text-danger" onclick="heartCheck()">♡</p>
                             </div>
                         </div>
-                        
+            
                         <p class="h6">　残り : 1</p>
                     </div>
                 </div>
