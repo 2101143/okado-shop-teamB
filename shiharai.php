@@ -1,4 +1,32 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>変更確認</title>
+<style>
+   .main{
+  padding: 300px;
+  margin:100;
+}
+#contents{
+  width:100%;
+  font-size:100px;
+  margin: 20px auto;
+}
+ 
+.box1 {
+    padding: 10em 1em;
+    margin: 20em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+</style>
+<!DOCTYPE html>
 <html lang="ja">
   	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -9,18 +37,6 @@
 		<link rel="stylesheet" href="./css/style.css">
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<script type="text/javascript" >
-			function del1(){
-				document.getElementById("s_1").style.display="none";
-			}
-			function del2(){
-				document.getElementById("s_2").style.display="none";
-			}
-			function del3(){
-				document.getElementById("s_3").style.display="none";
-			}
-			function del4(){
-				document.getElementById("s_4").style.display="none";
-			}
 		</script>
 	</head>
 		
@@ -45,7 +61,7 @@
                     <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
-                    <li class="border-bottom border-dark p-1"><a href="(G1-1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">会員情報</a></li>
                 </ul>
 					</nav>
@@ -60,27 +76,12 @@
 					<a href="home.html"><i class="bi bi-arrow-counterclockwise text-dark" style="font-size: 1.5rem;" ></i></a>
 				</div>
 			</div>
-			<!-- /ナビゲーション -->
-			<div class="row justify-content-center">
-				<div class="col-md-7 col-lg-5 col-4">
-					<div class="name"><h1 class="text-center">カート</h1></div>
-					<div class="shohin" id="s_1" >
-						<div class="img">
-							<img src="img/okado_e09.png" class="style">
-						</div>
-						<div class="s-name" id="s_1">
-							<p class="s_name">特別な海月（青）</p>
-							<p class="s_kakaku">価格：&yen;5,700</p>
-							<p class="s_suuryou">数量：</p>
-							<button class="cancel" onclick="del1();">×</button>
-						</div>        
-					</div>
+    <div class="main box1">
+        <p class="text-center">支払い完了しました</p>
+    </div>
+    
 
-					<div style="text-align:right; padding:0;">
-						<button class="kakutei"onclick="location.href='(G1-4-2)tyumon.php'">レジへ進む</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
 </html>

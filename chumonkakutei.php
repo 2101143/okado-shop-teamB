@@ -96,6 +96,7 @@
 		<div class="text-center" class="example-r">
 			<br>
             <br>
+            <a href="
             <button>注文確定</button>
 		</div>
 

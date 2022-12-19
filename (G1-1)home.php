@@ -28,7 +28,7 @@
 					<nav class="nav_content">
 					<ul class="h3 mt-5" style="list-style-type: none;">
                     <li class="border-bottom border-dark p-1"><a href="(G1-1)home.php" class="text-dark" style="text-decoration: none;">HOME</a></li>
-                    <li class="border-bottom border-dark p-1"><a href="(G1-5)ABOUT.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="ABOUT2.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
                     <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
                     <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">ワークショップ予約</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
@@ -52,11 +52,6 @@
             
             <!-- HOME -->
             <div class="container-fluid">
-                <div class="" style="height: 20%;">
-                    <div class="col text-center">
-                        <img class="border" src="img/main-image.png" style="height: 100%; width: 280px; object-fit: cover">
-                    </div>
-                </div>
                 <div class="mt-5" style="height: 5%;">
                     <div class="col-12 text-center">
                         <span class="h4">PICK UP!</span>
@@ -70,8 +65,8 @@
                 <div class="row justify-content-center my-5">
                     <div class="col-9 col-md-5 col-xl-4">
                         <ul class="h3" style="list-style-type: none;">
-                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="(G1-2)syohin.php" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
-                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">イヤリング</a></li>
+                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="(G1-2)syohin.php" class="text-dark" style="text-decoration: none;">イヤリング</a></li>
+                            <li class="bg-white border border-dark p-1 my-4 text-center"><a href="" class="text-dark" style="text-decoration: none;">ネックレス</a></li>
                         </ul>
                     </div>
                 </div>
