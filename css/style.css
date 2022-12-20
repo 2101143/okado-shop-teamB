@@ -1,3 +1,6 @@
+body{
+  background-image: url("img/main-image.png");
+}
 .image{
     width:  50%;
     height: 80%;

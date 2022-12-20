@@ -11,7 +11,7 @@
     
 </head>
 
-<body id="body" class="bg-white">
+<body id="body" style="background-image: url(img/main-image.png);">
     <!-- ナビゲーション -->
     <!-- z-index:11000 -->
     <nav class="nav bg-light sticky-top" style="z-index: 11000">
@@ -77,7 +77,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.5);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                     <a href="10syousai.php">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.2);">
+            <div class="col-6 col-md-4 col-lg-3 border p-2" style="background-color: rgba(160,170,170,0.5);">
                 <div style="width: 100%;  object-fit: cover">
                     <div class="bg-white" style="width: 100%; height: 100%">
                         <img src="img/okado_e02.png" style="width: 100%; object-fit: cover">
