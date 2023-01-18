@@ -30,7 +30,7 @@
                     <li class="border-bottom border-dark p-1"><a href="(G1-1)home.php" class="text-dark" style="text-decoration: none;">HOME</a></li>
                     <li class="border-bottom border-dark p-1"><a href="ABOUT2.php" class="text-dark" style="text-decoration: none;">ABOUT</a></li>
                     <li class="border-bottom border-dark p-1"><a href="(G1-6-1)CONTACT.php" class="text-dark" style="text-decoration: none;">CONTACT</a></li>
-                    <li class="border-bottom border-dark p-1"><a href="logout.php" class="text-dark" style="text-decoration: none;">ログアウト</a></li>
+                    <li class="border-bottom border-dark p-1"><a href="(G1-10)logout.php" class="text-dark" style="text-decoration: none;">ログアウト</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">お気に入り</a></li>
                     <li class="border-bottom border-dark p-1"><a href="" class="text-dark" style="text-decoration: none;">購入履歴</a></li>
                     <li class="border-bottom border-dark p-1"><a href="(G1-10)login.php" class="text-dark" style="text-decoration: none;">ログイン</a></li>
