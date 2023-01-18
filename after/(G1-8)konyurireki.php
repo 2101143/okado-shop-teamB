@@ -63,7 +63,7 @@
 		<!-- /ナビゲーション -->
 		<div class="row justify-content-center">
 			<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5">
-				<div class="name"><h1 class="text-center">購入明細</h1></div>
+				<div class="name"><h1 class="text-center">購入履歴</h1></div>
 				<div class="shohin" id="s_1" >
 					<div class="img">
 						<img src="img/okado_e09.png" class="style">
