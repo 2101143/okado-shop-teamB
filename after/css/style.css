@@ -643,6 +643,21 @@ a{
 .s_suuryou{
   float:left;
 }
+.s_messege{
+  margin: 20px 0;
+  float:left;
+}
+.m_name{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.m_suuryou{
+  margin: 0%;
+}
+.m_messege{
+  margin: 0%;
+  float:left;
+}
 .cancel{
   text-align: right;
   float:right;
